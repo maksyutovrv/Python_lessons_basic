@@ -50,10 +50,6 @@ class PoliceCar(TownCar):
         TownCar.__init__(self, speed, color, name, is_police=True)
 
 
-#car1 = TownCar(100, 'red', 'Honda')
-#car2 = SportCar(100, 'red', 'Honda')
-#car2.turn('назад')
-
 my_car = TownCar(100, 'Blue', 'TESLA')
 
 my_car.car_go()
